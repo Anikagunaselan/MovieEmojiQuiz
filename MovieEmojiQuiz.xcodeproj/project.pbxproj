@@ -11,6 +11,10 @@
 		BD54BA692C137FF1006C0B55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54BA682C137FF1006C0B55 /* ContentView.swift */; };
 		BD54BA6B2C137FF2006C0B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD54BA6A2C137FF2006C0B55 /* Assets.xcassets */; };
 		BD54BA6E2C137FF2006C0B55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD54BA6D2C137FF2006C0B55 /* Preview Assets.xcassets */; };
+		BD54BA792C138092006C0B55 /* FirstQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54BA782C138092006C0B55 /* FirstQuestion.swift */; };
+		BD54BA7B2C138A36006C0B55 /* SecondQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54BA7A2C138A36006C0B55 /* SecondQuestion.swift */; };
+		BD54BA7D2C138B94006C0B55 /* ThirdQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54BA7C2C138B94006C0B55 /* ThirdQuestion.swift */; };
+		BD54BA7F2C138F6B006C0B55 /* LastPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54BA7E2C138F6B006C0B55 /* LastPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BD54BA682C137FF1006C0B55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD54BA6A2C137FF2006C0B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD54BA6D2C137FF2006C0B55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD54BA782C138092006C0B55 /* FirstQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstQuestion.swift; sourceTree = "<group>"; };
+		BD54BA7A2C138A36006C0B55 /* SecondQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondQuestion.swift; sourceTree = "<group>"; };
+		BD54BA7C2C138B94006C0B55 /* ThirdQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdQuestion.swift; sourceTree = "<group>"; };
+		BD54BA7E2C138F6B006C0B55 /* LastPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				BD54BA662C137FF1006C0B55 /* MovieEmojiQuizApp.swift */,
+				BD54BA782C138092006C0B55 /* FirstQuestion.swift */,
+				BD54BA7A2C138A36006C0B55 /* SecondQuestion.swift */,
+				BD54BA7C2C138B94006C0B55 /* ThirdQuestion.swift */,
 				BD54BA682C137FF1006C0B55 /* ContentView.swift */,
+				BD54BA7E2C138F6B006C0B55 /* LastPage.swift */,
 				BD54BA6A2C137FF2006C0B55 /* Assets.xcassets */,
 				BD54BA6C2C137FF2006C0B55 /* Preview Content */,
 			);
@@ -139,6 +151,10 @@
 			files = (
 				BD54BA692C137FF1006C0B55 /* ContentView.swift in Sources */,
 				BD54BA672C137FF1006C0B55 /* MovieEmojiQuizApp.swift in Sources */,
+				BD54BA7F2C138F6B006C0B55 /* LastPage.swift in Sources */,
+				BD54BA7D2C138B94006C0B55 /* ThirdQuestion.swift in Sources */,
+				BD54BA792C138092006C0B55 /* FirstQuestion.swift in Sources */,
+				BD54BA7B2C138A36006C0B55 /* SecondQuestion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieEmojiQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = J4YBM72295;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.MovieEmojiQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anika.MovieEmojiQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieEmojiQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = J4YBM72295;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.MovieEmojiQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anika.MovieEmojiQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -9,16 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            
+            
+            VStack{
+               
+                Spacer()
+                Text("Guess the Movie")
+                    .font(.largeTitle)
+                Text("(Emoji Verson)")
+                Spacer()
+                
+                    
+            }
+                
+                NavigationLink(destination: FirstQuestion()){
+                    Text("Let's Start")
+                    
+                        
+                      
+                }
+                
+            }
+            .background(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 0.098))
         }
-        .padding()
-    }
+    
+    
 }
-
 #Preview {
     ContentView()
 }
